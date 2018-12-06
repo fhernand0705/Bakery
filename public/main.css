@@ -1,9 +1,32 @@
-.home, .about, .news {
+
+/************************ NAV BAR **********************/
+.home, .about, .news, .cookies, .muffins, .cupcakes {
   text-decoration: none;
-  margin-right: 15%;
+  margin-right: 5%;
   font-size: 25px;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+#cartbtn-1 {
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#cartbtn-2 {
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#cartbtn-3 {
+  margin-left: 40%;
+  margin-top: 12%;
+  background-color: blue;
+  border-radius: 5px;
 }

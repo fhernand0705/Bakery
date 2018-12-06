@@ -13,16 +13,16 @@ get '/about us' do
 end
 
 get '/cookies' do
-    @dulce_cook = Cookies.new('Dulce de Leche Cookies', 5.99,
-      'Caramel cookies taste so rich and delicious! These caramel cookies are easy, perfect, and tasty!',
+    @dulce_cook = Cookies.new('Dulce de Leche', 3.99,
+      'Dulce de Leche cookies taste so rich and delicious! This Latin American version starts with two crisp and crumbly shortbread cookies that get a unique texture from the use of cornstarch as well as flour. The cornstarch is what gives the cookies their incredibly crumbly texture.',
       '/images/dulce-cook.jpeg'
   )
-    @choco_chip = Cookies.new('Soft Chocolate Chip Cookies', 4.99,
-      'Our version of the American classic—thick and chewy with semi-sweet chocolate chips!',
+    @choco_chip = Cookies.new('Soft Chocolate Chip', 2.99,
+      'Moist, chewy & delicious are three words to describe this awesome chocolate cookie with chunks of smooth white chocolate. Definitely one of our customer\'s favorites and one you\'ll keep coming back for!',
       '/images/choco-chip.jpeg'
   )
-    @peanut_cook = Cookies.new('Peanut Butter Cookies', 4.99,
-      'Sometimes the simple things in life are the best. Made from 100% real peanut butter, our PB cookie is bursting with rich peanut flavor - this cookie is perfection for the peanut butter lover!',
+    @peanut_cook = Cookies.new('Peanut Butter', 2.99,
+      'Sometimes the simple things in life are the best. Made from 100% real peanut butter, our PB cookie is bursting with rich peanut flavor. Topped with a dusting of sugar and fresh roasted peanuts -- this cookie is perfection for the peanut butter lover.',
       '/images/peanut-cook.jpeg'
   )
 
@@ -31,11 +31,34 @@ end
 
 get '/muffins' do
 
+   @blue_muff = Muffins.new('Blue Berry Muffin'
+
+   )
+
+   @cinna = Muffins.new('Cinnamon Muffin'
+
+   )
+
+   @ppb = Muffins.new('Peanut Butter Banana Muffin'
+
+   )
+
    erb :muffins
 end
 
 get '/cupcakes' do
 
+  @red_velv = Cupcakes.new(
+
+  )
+
+  @carrot = Cupcakes.new(
+
+  )
+
+  @blue_muff = Cupcakes.new(
+
+  )
    erb :cupcakes
 end
 

@@ -1,38 +1,32 @@
 <title>Cookies</title>
+<h1 id='header'>Cookies</h1>
 
-<div class="container-fluid">
-  <div class="row-cook">
-    <div class="col-md-6">
-        <h3><%= @dulce_cook.name %></h3>
-        <h5>$<%= @dulce_cook.price %></h5>
-        <p><%= @dulce_cook.description %></p>
-    </div>
-
-    <div class="col-md-2">
-      <img src="<%= @dulce_cook.image %>" alt="">
-    </div>
+<div class="media mt-5">
+  <img class="ml-5" src="<%= @dulce_cook.image %>" style="width:33%; height:300px" alt="Dulce de Leche">
+  <div class="media-body">
+    <h3 class="mt-0 ml-2"><%= @dulce_cook.name %></h3>
+    <h5 class="ml-2">$<%= @dulce_cook.price %></h5>
+    <p class="ml-2"><%= @dulce_cook.description %></p>
+    <button id="cartbtn-1" type="button" name="button">Add to Cart</button>
   </div>
-
-      <div class="row-cook">
-    <div class="col-lg">
-      One of three columns
-      </div>
-    </div>
-
-      <div class="row-cook">
-        <div class="col-lg">
-      One of three columns
-  </div>
- </div>
 </div>
 
+<div class="media mt-5">
+  <div class="media-body">
+    <h3 class="mt-0 mb-4 ml-5"><%= @choco_chip.name %></h3>
+    <h5 class="ml-5">$<%= @choco_chip.price %></h5>
+    <p class="ml-5"><%= @choco_chip.description %></p>
+    <button id="cartbtn-2" type="button" name="button">Add to Cart</button>
+  </div>
+  <img class="mr-4" src="<%= @choco_chip.image %>" style="width:33%; height:300px" alt="Chocolate Chip">
+</div>
 
-<img src="<%= @choco_chip.image %>" alt="">
-<h3><%= @choco_chip.name %></h3>
-<h3>$<%= @choco_chip.price %></h3>
-<h3><%= @choco_chip.description %></h3>
-
-<img src="<%= @peanut_cook.image %>" alt="">
-<h3><%= @peanut_cook.name %></h3>
-<h3>$<%= @peanut_cook.price %></h3>
-<h3><%= @peanut_cook.description %></h3>
+<div class="media mt-5">
+  <img class="ml-5 mb-3" src="<%= @peanut_cook.image %>" style="width:33%; height:300px" alt="Peanut Butter">
+  <div class="media-body">
+    <h3 class="mt-0 ml-2"><%= @peanut_cook.name %></h3>
+    <h5 class="ml-2">$<%= @peanut_cook.price %></h5>
+    <p class="ml-2"><%= @peanut_cook.description %></p>
+    <button id="cartbtn-3" type="button" name="button">Add to Cart</button>
+  </div>
+</div>
