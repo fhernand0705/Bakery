@@ -1,8 +1,8 @@
 require 'sinatra'
 require './class.rb'
+require './send.rb'
 
-
-get '/home' do
+get '/' do
 
   @blue_muff = Muffins.new('Blueberry', 2.99, 'These blueberry muffins are reminiscent of the beautiful muffins you’d find at your favorite bakery. They are huge and loaded with blueberries.  Tender and moist on the inside.  Topped with an irresistible crunchy streusel. Buy these the night before, and enjoy in the morning!', '/images/blueberry.jpeg'
 
@@ -77,20 +77,14 @@ get '/cupcakes' do
    erb :cupcakes
 end
 
-
-post '/email' do
-   email = params['email']
-   Newsletter.welcome(email).deliver_now
+def email(recipient)
+    Newsletter.welcome(recipient).deliver_now
 end
 
+post '/' do
 
+   recipient = params['email']
+   email(recipient)
 
-
-
-
-
-
-# get '/' do
-#   puts ENV['EMAIL_USERNAME']
-#   erb :home
-# end
+   erb :home
+end

@@ -20,7 +20,6 @@ class Newsletter < ActionMailer::Base
   end
 end
 
-Newsletter.welcome("freddy.hernandez@fandm.edu").deliver_now
 
 # you need a folder whose name matches the name of the class inheriting from
 # actionmailer base
