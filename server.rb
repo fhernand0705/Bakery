@@ -78,7 +78,10 @@ get '/cupcakes' do
 end
 
 
-
+post '/email' do
+   email = params['email']
+   Newsletter.welcome(email).deliver_now
+end
 
 
 
