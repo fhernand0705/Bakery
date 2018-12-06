@@ -1,13 +1,12 @@
 /************************ NAV BAR **********************/
 
 .home, .about, .news, .cookies, .muffins, .cupcakes {
-  text-decoration: none;
   margin-right: 5%;
   font-size: 25px;
 
 }
 
-#nav, #navbarToggleExternalContent{
+#nav, #navbarToggleExternalContent {
   background-color: #E8AD74;
 }
 
@@ -24,6 +23,75 @@ a:hover {
   color: #694E34;
 }
 
+/************************** Footer *************************/
+
+.container-fluid {
+  margin-top: 5%;
+  background-color: #694E34;
+
+}
+
+.menu {
+  margin-left: 39%;
+  margin-top: 3%;
+  color: #E8AD74;
+}
+
+ul {
+  list-style-type: none;
+  color: #fcfbfa;
+  margin-left: 30%;
+}
+
+.home-foot, .about-foot, .cookies-foot,
+.muffins-foot, .cupcakes-foot {
+  margin-right: 5%;
+  font-size: 15px;
+}
+
+li a:hover {
+    color: #E8AD74;
+}
+
+.social {
+  margin-left: 40%;
+  margin-top: 3%;
+  color: #E8AD74;
+}
+
+.icon-item {
+  display: inline-block;
+  margin-left: 4px;
+  margin-top: 10%;
+}
+
+.newsletter {
+  margin-left: 23%;
+  margin-top: 3%;
+  color: #E8AD74;
+  font-size: 22.5px;
+}
+
+.news-form {
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.outline {
+  color: #694E34;
+  background-color: #E8AD74;
+  border-color: #694E34;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.outline:hover {
+  background-color: #fcfbfa;
+}
+
+
+
 /************************ Item Images ******************/
 
 img {
@@ -37,7 +105,7 @@ img {
 
 }
 
-/************************ Cart Buttons **************/
+/************************ Cart Buttons ******************/
 
 #muffbtn-1, #muffbtn-2, #muffbtn-3 {
   margin-left: 40%;

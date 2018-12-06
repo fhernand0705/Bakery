@@ -8,7 +8,8 @@
 </head>
   <body>
 
-           <!-------------- MENU ICON/BAR -------------------->
+<!------------------------------ Nav Bar ----------------------->
+
 <section>
     <div class="pos-f-t">
       <div class="collapse" id="navbarToggleExternalContent">
@@ -28,9 +29,61 @@
     </div>
 <section>
 
+<!------------------------------ Footer ------------------------------>
+<%= yield %>
+
+<div class="container-fluid">
+  <div class="row">
+
+<!--- Nav Bar Items -->
+    <div class="col-sm">
+        <h5 class="menu">Explore</h5>
+      <ul>
+        <li class="home-foot"><a href="home">Home</a></li>
+        <li class="about-foot"><a href="about_us">About Us</a></li>
+        <li class="cookies-foot"><a href="cookies">Cookies</a></li>
+        <li class="muffins-foot"><a href="muffins">Muffins</a></li>
+        <li class="cupcakes-foot"><a href="cupcakes">Cupcakes</a></li>
+      </ul>
+    </div>
+
+<!--- Social Media Icons -->
+    <div class="col-sm" style="margin-right:50px">
+        <h5 class="social">Stay Connected</h5>
+
+      <ul class="sm-icons">
+
+        <li class="icon-item">
+          <a href=""><img src="/images/instagram-32.png"></a>
+        </li>
+
+        <li class="icon-item">
+          <a href=""><img src="/images/facebook-3-32.png"></a>
+        </li>
+
+        <li class="icon-item">
+            <a href=""><img src="/images/twitter-3-32.png"></a>
+        </li>
+
+      </ul>
+    </div>
+
+<!--- Newsletter Form -->
+    <div class="col-sm">
+         <h3 class="newsletter">Newsletter</h3>
+      <form class="form-inline news-form" action="/welcome" method="post">
+
+         <div class="form-group mx-sm-2 mb-2">
+           <label for="email" class="sr-only"></label>
+          <input type="email" class="form-control" id="inputPassword2" placeholder="Enter Your Email">
+         </div>
+         <input type="submit" class="outline" value="Submit">
+     </form>
+    </div>
+   </div>
+ </div>
 
 
-  <%= yield %>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
