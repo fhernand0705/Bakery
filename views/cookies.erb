@@ -1,13 +1,14 @@
 <title>Cookies</title>
-<h1 id='header'>Cookies</h1>
+
+<h1 style="text-align:center">Cookies</h1>
 
 <div class="media mt-5">
   <img class="ml-5" src="<%= @dulce_cook.image %>" style="width:33%; height:300px" alt="Dulce de Leche">
   <div class="media-body">
-    <h3 class="mt-0 ml-2"><%= @dulce_cook.name %></h3>
+    <h3 class="mt-0 ml-2 mb-4"><%= @dulce_cook.name %></h3>
     <h5 class="ml-2">$<%= @dulce_cook.price %></h5>
     <p class="ml-2"><%= @dulce_cook.description %></p>
-    <button id="cartbtn-1" type="button" name="button">Add to Cart</button>
+    <button id="cookbtn-1" type="button" name="button">Add to Cart</button>
   </div>
 </div>
 
@@ -16,7 +17,7 @@
     <h3 class="mt-0 mb-4 ml-5"><%= @choco_chip.name %></h3>
     <h5 class="ml-5">$<%= @choco_chip.price %></h5>
     <p class="ml-5"><%= @choco_chip.description %></p>
-    <button id="cartbtn-2" type="button" name="button">Add to Cart</button>
+    <button id="cookbtn-2" type="button" name="button">Add to Cart</button>
   </div>
   <img class="mr-4" src="<%= @choco_chip.image %>" style="width:33%; height:300px" alt="Chocolate Chip">
 </div>
@@ -24,9 +25,9 @@
 <div class="media mt-5">
   <img class="ml-5 mb-3" src="<%= @peanut_cook.image %>" style="width:33%; height:300px" alt="Peanut Butter">
   <div class="media-body">
-    <h3 class="mt-0 ml-2"><%= @peanut_cook.name %></h3>
+    <h3 class="mt-0 ml-2 mb-4"><%= @peanut_cook.name %></h3>
     <h5 class="ml-2">$<%= @peanut_cook.price %></h5>
     <p class="ml-2"><%= @peanut_cook.description %></p>
-    <button id="cartbtn-3" type="button" name="button">Add to Cart</button>
+    <button id="cookbtn-3" type="button" name="button">Add to Cart</button>
   </div>
 </div>

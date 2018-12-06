@@ -1,5 +1,5 @@
-
 /************************ NAV BAR **********************/
+
 .home, .about, .news, .cookies, .muffins, .cupcakes {
   text-decoration: none;
   margin-right: 5%;
@@ -10,23 +10,38 @@ a:hover {
   text-decoration: none;
 }
 
-#cartbtn-1 {
+/************************ Item Images ******************/
+
+img {
+  border-radius: 7px;
+}
+
+/************************ Add to Cart Buttons **************/
+
+#cookbtn-1, #cookbtn-2 {
   margin-left: 40%;
   margin-top: 10%;
   background-color: blue;
   border-radius: 5px;
 }
 
-#cartbtn-2 {
-  margin-left: 40%;
-  margin-top: 10%;
-  background-color: blue;
-  border-radius: 5px;
-}
-
-#cartbtn-3 {
+#cookbtn-3 {
   margin-left: 40%;
   margin-top: 12%;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#cupbtn-1, #cupbtn-2 {
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+#cupbtn-3 {
+  margin-left: 40%;
+  margin-top: 7%;
   background-color: blue;
   border-radius: 5px;
 }

@@ -1,0 +1,33 @@
+<title>Cupcakes</title>
+
+<h1 style="text-align:center">Cupcakes</h1>
+
+<div class="media mt-5">
+  <img class="ml-5" src="<%= @red_velv.image %>" style="width:30%; height:320px" alt="Dulce de Leche">
+  <div class="media-body">
+    <h3 class="mt-0 ml-2 mb-4"><%= @red_velv.name %></h3>
+    <h5 class="ml-2">$<%= @red_velv.price %></h5>
+    <p class="ml-2"><%= @red_velv.description %></p>
+    <button id="cupbtn-1" type="button" name="button">Add to Cart</button>
+  </div>
+</div>
+
+<div class="media mt-5">
+  <div class="media-body">
+    <h3 class="mt-0 mb-4 ml-5"><%= @carrot.name %></h3>
+    <h5 class="ml-5">$<%= @carrot.price %></h5>
+    <p class="ml-5"><%= @carrot.description %></p>
+    <button id="cupbtn-2" type="button" name="button">Add to Cart</button>
+  </div>
+  <img class="mr-4" src="<%= @carrot.image %>" style="width:33%; height:320px" alt="Chocolate Chip">
+</div>
+
+<div class="media mt-5">
+  <img class="ml-5 mb-3" src="<%= @cheese.image %>" style="width:33%; height:300px" alt="Peanut Butter">
+  <div class="media-body">
+    <h3 class="mt-0 ml-2 mb-4"><%= @cheese.name %></h3>
+    <h5 class="ml-2">$<%= @cheese.price %></h5>
+    <p class="ml-2"><%= @cheese.description %></p>
+    <button id="cupbtn-3" type="button" name="button">Add to Cart</button>
+  </div>
+</div>
