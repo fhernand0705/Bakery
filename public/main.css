@@ -31,6 +31,34 @@ a:hover {
 
 }
 
+.cate-types {
+  text-align: center;
+  margin-top: 5%;
+  color: #fcfbfa;
+}
+
+.tracking-in-contract-bck {
+	-webkit-animation: tracking-in-contract-bck 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+            transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
 #cup-img, #muff-img, #cook-img {
   height: 65%;
   border-radius: 0;
@@ -88,9 +116,6 @@ a:hover {
 
 /************** Staff Image Grid *********/
 
-/* .staff-grid {
-  margin-top: -12%;
-} */
 
 #team-name {
    color: #694E34;
@@ -187,7 +212,7 @@ li a:hover {
 }
 
 
-/************************ Images ************************/
+/************************ Image Banners ************************/
 
 img {
   border-radius: 7px;
@@ -207,6 +232,33 @@ img {
   position: relative;
 }
 
+.muff-types {
+  text-align: center;
+  margin-top: 8%;
+  color: #fcfbfa;
+}
+
+.tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+
+    opacity: 1;
+  }
+}
+
 #cook-header {
   background: url('https://www.rachaelrayshow.com/sites/default/files/styles/sitemap_video_thumbnail/public/images/2014-05/1749985694001_3578125766001_8171-GrantCookies-800.jpg?itok=-nso_icV')
   no-repeat center;
@@ -216,11 +268,64 @@ img {
   position: relative;
 }
 
+.cook-types {
+  text-align: center;
+  margin-top: 6%;
+  color: #fcfbfa;
+}
+
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+@-webkit-keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
 #cup-header {
   background: url('https://s24597.pcdn.co/wp-content/uploads/2016/12/citrus-cream-frosted-orange-spice-cupcakes.jpg') no-repeat center;
   background: cover;
   min-height: 350px;
   position: relative;
+}
+
+.cup-types {
+  text-align: center;
+  margin-top: 8%;
+  color: #fcfbfa;
+}
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 1.3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+
+    opacity: 1;
+  }
 }
 
 .card {
