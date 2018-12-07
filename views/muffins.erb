@@ -1,33 +1,43 @@
 <title>Muffins</title>
 
-<h1 style="text-align:center">Muffins</h1>
+<!------------------------- Header Image ----------------------->
 
-<div class="media mt-5">
-    <img class="ml-5" src="<%= @blue_muff.image %>" style="width:33%; height:300px" alt="Dulce de Leche">
-  <div class="media-body">
-    <h3 class="mt-0 ml-2 mb-4"><%= @blue_muff.name %></h3>
-    <h5 class="ml-2">$<%= @blue_muff.price %></h5>
-    <p class="ml-2"><%= @blue_muff.description %></p>
+<div class="card bg-dark text-white">
+    <header id="muff-header" class="card-img"></header>
+    <div class="card-img-overlay">
+    <img src="/images/logo.png" style="margin-left:80%; margin-top:-10px" alt="">
+   </div>
+</div>
+
+<!------------------------- Items Z-layout ----------------------->
+
+
+<div class="media mt-5" style="color:#694E34;">
+        <img class="ml-5" src="<%= @blue_muff.image %>" style="width:33%; height:300px" alt="Dulce de Leche">
+  <div class="media-body" style="color:#694E34;">
+        <h3 class="mt-0 ml-2 mb-4"><%= @blue_muff.name %></h3>
+        <h5 class="ml-2">$<%= @blue_muff.price %></h5>
+        <p class="ml-2"><%= @blue_muff.description %></p>
     <button id="muffbtn-1" type="button" name="button">Add to Cart</button>
   </div>
 </div>
 
-<div class="media mt-5">
-  <div class="media-body">
-    <h3 class="mt-0 mb-4 ml-5"><%= @cinna.name %></h3>
-    <h5 class="ml-5">$<%= @cinna.price %></h5>
-    <p class="ml-5"><%= @cinna.description %></p>
+<div class="media mt-5" style="color:#694E34;">
+  <div class="media-body" style="color:#694E34;">
+      <h3 class="mt-0 mb-4 ml-5"><%= @cinna.name %></h3>
+      <h5 class="ml-5">$<%= @cinna.price %></h5>
+      <p class="ml-5"><%= @cinna.description %></p>
     <button id="muffbtn-2" type="button" name="button">Add to Cart</button>
   </div>
-    <img class="mr-4" src="<%= @cinna.image %>" style="width:33%; height:300px" alt="Chocolate Chip">
+      <img class="mr-4" src="<%= @cinna.image %>" style="width:33%; height:300px" alt="Chocolate Chip">
 </div>
 
-<div class="media mt-5">
-    <img class="ml-5 mb-3" src="<%= @ppb.image %>" style="width:33%; height:300px" alt="Peanut Butter">
-  <div class="media-body">
-    <h3 class="mt-0 ml-2 mb-4"><%= @ppb.name %></h3>
-    <h5 class="ml-2">$<%= @ppb.price %></h5>
-    <p class="ml-2"><%= @ppb.description %></p>
+<div class="media mt-5" style="color:#694E34;">
+        <img class="ml-5 mb-3" src="<%= @ppb.image %>" style="width:33%; height:300px" alt="Peanut Butter">
+  <div class="media-body" style="color:#694E34;">
+        <h3 class="mt-0 ml-2 mb-4"><%= @ppb.name %></h3>
+        <h5 class="ml-2">$<%= @ppb.price %></h5>
+        <p class="ml-2"><%= @ppb.description %></p>
     <button id="muffbtn-3" type="button" name="button">Add to Cart</button>
   </div>
 </div>

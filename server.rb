@@ -2,21 +2,9 @@ require 'sinatra'
 require './class.rb'
 require './send.rb'
 
+
 get '/' do
-
-  @blue_muff = Muffins.new('Blueberry', 2.99, 'These blueberry muffins are reminiscent of the beautiful muffins you’d find at your favorite bakery. They are huge and loaded with blueberries.  Tender and moist on the inside.  Topped with an irresistible crunchy streusel. Buy these the night before, and enjoy in the morning!', '/images/blueberry.jpeg'
-
-  )
-
-  @cinna = Muffins.new('Cinnamon', 2.99, 'Can\'t decide between a snack and a sweet? Grab our Cinnamon Chip Muffin for a little bit of both. Each fluffy muffin is infused with cinnamon chips for a simple flavor that perfectly satisfies. The finishing touch? Our unique cinnamon crunch streusel topping!', '/images/cinna.jpeg'
-
-  )
-
-  @ppb = Muffins.new('Peanut Butter Banana', 2.99, 'Mouthwateringly good, our Blueberry Muffin goes beyond the ordinary snack. Fresh blueberries are nestled in a moist and tender muffin. What makes it extra special? You get a bit of satisfying "DAMNNNN" in each bite with our streusel topping.', '/images/ppb.jpeg'
-
-  )
-
-   erb :home
+  erb :home
 end
 
 get '/about us' do
@@ -73,7 +61,6 @@ get '/cupcakes' do
   @cheese = Cupcakes.new('Cheesecake', 2.99, 'Customers love our cheesecake so much, we created a cupcake to feature our delicious treat! The cheesecake cupcake is a white cupcake, filled with whipped cream, and iced with cheesecake whipped cream. We decorate the top with graham cracker crumbs and finish with a white chocolate drizzle.', '/images/cheese.jpeg'
 
   )
-
    erb :cupcakes
 end
 

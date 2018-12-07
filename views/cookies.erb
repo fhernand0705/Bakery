@@ -1,10 +1,20 @@
 <title>Cookies</title>
 
-<h1 style="text-align:center">Cookies</h1>
+<!------------------------- Header Image ----------------------->
 
-<div class="media mt-5">
+<div class="card bg-dark text-white">
+    <header id="cook-header" class="card-img"></header>
+  <div class="card-img-overlay">
+    <img src="/images/logo.png" style="margin-left:80%; margin-top:-10px" alt="">
+
+  </div>
+</div>
+
+<!------------------------- Items Z-layout ----------------------->
+
+<div class="media mt-5" style="color:#694E34;">
   <img class="ml-5" src="<%= @dulce_cook.image %>" style="width:33%; height:300px" alt="Dulce de Leche">
-  <div class="media-body">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 ml-2 mb-4"><%= @dulce_cook.name %></h3>
     <h5 class="ml-2">$<%= @dulce_cook.price %></h5>
     <p class="ml-2"><%= @dulce_cook.description %></p>
@@ -12,8 +22,8 @@
   </div>
 </div>
 
-<div class="media mt-5">
-  <div class="media-body">
+<div class="media mt-5" style="color:#694E34;">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 mb-4 ml-5"><%= @choco_chip.name %></h3>
     <h5 class="ml-5">$<%= @choco_chip.price %></h5>
     <p class="ml-5"><%= @choco_chip.description %></p>
@@ -22,9 +32,9 @@
   <img class="mr-4" src="<%= @choco_chip.image %>" style="width:33%; height:300px" alt="Chocolate Chip">
 </div>
 
-<div class="media mt-5">
+<div class="media mt-5" style="color:#694E34;">
   <img class="ml-5 mb-3" src="<%= @peanut_cook.image %>" style="width:33%; height:300px" alt="Peanut Butter">
-  <div class="media-body">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 ml-2 mb-4"><%= @peanut_cook.name %></h3>
     <h5 class="ml-2">$<%= @peanut_cook.price %></h5>
     <p class="ml-2"><%= @peanut_cook.description %></p>

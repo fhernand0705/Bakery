@@ -22,7 +22,8 @@ a:hover {
   text-decoration: none;
   color: #694E34;
 }
-/************************ Home Image Grid ***************/
+
+/******************* Home Image Grid ***************/
 
 .home-grid {
   margin-top: 10%;
@@ -152,50 +153,86 @@ li a:hover {
 }
 
 
-/************************ Item Images ******************/
+/************************ Images ******************/
 
 img {
   border-radius: 7px;
 }
 
-#header {
+#home-header {
   max-width: 100%;
   height: 300px;
+}
 
+#muff-header {
+  background: url('/images/muff-banner.jpg') no-repeat center;
+  background: cover;
+  min-height: 350px;
+  position: relative;
+}
+
+#cook-header {
+  background: url('https://www.rachaelrayshow.com/sites/default/files/styles/sitemap_video_thumbnail/public/images/2014-05/1749985694001_3578125766001_8171-GrantCookies-800.jpg?itok=-nso_icV')
+  no-repeat center;
+  background: cover;
+  min-height: 320px;
+  background-position: right;
+  position: relative;
+}
+
+#cup-header {
+  background: url('https://s24597.pcdn.co/wp-content/uploads/2016/12/citrus-cream-frosted-orange-spice-cupcakes.jpg') no-repeat center;
+  background: cover;
+  min-height: 350px;
+  position: relative;
 }
 
 .card {
   border-radius: 0;
 }
 
-/************************ Cart Buttons ******************/
+/******************* Cart Buttons ******************/
 
 #muffbtn-1, #muffbtn-2, #muffbtn-3 {
   margin-left: 40%;
   margin-top: 10%;
-  background-color: rgba(249, 249, 249, 0.86);
+  color: white;
+  background-color: #694E34;
   border-radius: 5px;
   z-index: 3;
+}
+
+#muffbtn-1:hover, #muffbtn-2:hover,
+#muffbtn-3:hover {
+  background-color: #E8AD74;
 }
 
 #cookbtn-1, #cookbtn-2 {
   margin-left: 40%;
   margin-top: 10%;
-  background-color: rgba(249, 249, 249, 0.86);
+  color: white;
+  background-color: #694E34;
   border-radius: 5px;
 }
+
 
 #cookbtn-3 {
   margin-left: 40%;
   margin-top: 12%;
-  background-color: rgba(249, 249, 249, 0.86);
+  color: white;
+  background-color: #694E34;
   border-radius: 5px;
+}
+#cookbtn-1:hover, #cookbtn-2:hover,
+#cookbtn-3:hover {
+  background-color: #E8AD74;
 }
 
 #cupbtn-1, #cupbtn-2 {
   margin-left: 40%;
   margin-top: 10%;
-  background-color: rgba(249, 249, 249, 0.86);
+  color: white;
+  background-color: #694E34;
   border-radius: 5px;
   z-index: 3;
 }
@@ -203,7 +240,13 @@ img {
 #cupbtn-3 {
   margin-left: 40%;
   margin-top: 7%;
-  background-color: rgba(249, 249, 249, 0.86);
+  color: white;
+  background-color: #694E34;
   border-radius: 5px;
   z-index: 3;
+}
+
+#cupbtn-1:hover, #cupbtn-2:hover,
+#cupbtn-3:hover {
+  background-color: #E8AD74;
 }

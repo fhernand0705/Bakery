@@ -1,10 +1,20 @@
 <title>Cupcakes</title>
 
-<h1 style="text-align:center">Cupcakes</h1>
+<!------------------------- Header Image ----------------------->
 
-<div class="media mt-5">
-  <img class="ml-5" src="<%= @red_velv.image %>" style="width:30%; height:320px" alt="Dulce de Leche">
-  <div class="media-body">
+<div class="card bg-dark text-white">
+    <header id="cup-header" class="card-img"></header>
+  <div class="card-img-overlay">
+    <img src="/images/logo.png" style="margin-left:80%; margin-top:-10px" alt="">
+
+  </div>
+</div>
+
+<!------------------------- Items Z-layout ----------------------->
+
+<div class="media mt-5" style="color:#694E34;">
+  <img class="ml-5" src="<%= @red_velv.image %>" style="width:25%; height:320px" alt="Dulce de Leche">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 ml-2 mb-4"><%= @red_velv.name %></h3>
     <h5 class="ml-2">$<%= @red_velv.price %></h5>
     <p class="ml-2"><%= @red_velv.description %></p>
@@ -12,8 +22,8 @@
   </div>
 </div>
 
-<div class="media mt-5">
-  <div class="media-body">
+<div class="media mt-5" style="color:#694E34;">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 mb-4 ml-5"><%= @carrot.name %></h3>
     <h5 class="ml-5">$<%= @carrot.price %></h5>
     <p class="ml-5"><%= @carrot.description %></p>
@@ -22,9 +32,9 @@
   <img class="mr-4" src="<%= @carrot.image %>" style="width:33%; height:320px" alt="Chocolate Chip">
 </div>
 
-<div class="media mt-5">
+<div class="media mt-5" style="color:#694E34;">
   <img class="ml-5 mb-3" src="<%= @cheese.image %>" style="width:33%; height:300px" alt="Peanut Butter">
-  <div class="media-body">
+  <div class="media-body" style="color:#694E34;">
     <h3 class="mt-0 ml-2 mb-4"><%= @cheese.name %></h3>
     <h5 class="ml-2">$<%= @cheese.price %></h5>
     <p class="ml-2"><%= @cheese.description %></p>
