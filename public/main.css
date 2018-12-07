@@ -1,4 +1,4 @@
-/************************ NAV BAR **********************/
+/************************ Nav Bar **********************/
 
 .home, .about, .news, .cookies, .muffins, .cupcakes {
   margin-right: 5%;
@@ -23,9 +23,9 @@ a:hover {
   color: #694E34;
 }
 
-/******************* Home Image Grid ***************/
+/************************ Category Image Grid ***************/
 
-.home-grid {
+.cate-grid {
   margin-top: 10%;
   margin-left: 12%;
 
@@ -85,6 +85,40 @@ a:hover {
   opacity: 0.5;
   transition-duration: 0.7s;
 }
+
+/************** Staff Image Grid *********/
+
+/* .staff-grid {
+  margin-top: -12%;
+} */
+
+#team-name {
+   color: #694E34;
+   text-align: center;
+   margin-top: -17%;
+   margin-bottom: 5%;
+}
+
+.staff1 {
+  border-radius: 20px 75px;
+  margin-left: -20%
+}
+
+.staff2 {
+  border-radius: 5px;
+  width: auto;
+  height: 65%;
+  margin-left: 85%;
+}
+
+.staff3 {
+  width: 155%;
+  height: 50%;
+  border-radius: 75px 20px;
+  margin-left: 123%;
+}
+
+
 /************************** Footer *************************/
 
 .container-fluid {
@@ -153,10 +187,12 @@ li a:hover {
 }
 
 
-/************************ Images ******************/
+/************************ Images ************************/
 
 img {
   border-radius: 7px;
+  box-shadow: 0 4px 8px 0
+  rgba(0, 0, 0, 0.2), 0 6px 20px 0;
 }
 
 #home-header {
