@@ -1,7 +1,7 @@
 # create your catagory classes here
 
 
-class Cookies
+class Cookie
 
     attr_accessor :name, :price, :description, :image
     def initialize(name, price, description, image)
@@ -15,7 +15,7 @@ class Cookies
 end
 
 
-class Muffins
+class Muffin
 
     attr_accessor :name, :price, :description, :image
     def initialize(name, price, description, image)
@@ -28,7 +28,7 @@ class Muffins
 end
 
 
-class Cupcakes
+class Cupcake
 
     attr_accessor :name, :price, :description, :image
     def initialize(name, price, description, image)

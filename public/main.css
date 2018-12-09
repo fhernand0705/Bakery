@@ -92,7 +92,7 @@ a:hover {
 }
 
 .cup-col:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition-duration: 0.7s;
 }
 
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .cook-col:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition-duration: 0.7s;
 }
 
@@ -110,7 +110,7 @@ a:hover {
 }
 
 .muff-col:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition-duration: 0.7s;
 }
 
