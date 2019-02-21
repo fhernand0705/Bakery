@@ -1,2 +1,2 @@
 require "./server"
-run Bakery
+run Sinatra::Application

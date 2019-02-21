@@ -1,8 +1,7 @@
+require 'sinatra'
 require './class.rb'
 require './send.rb'
-require 'sinatra'
 
-class Bakery < Sinatra::Base
 
 get '/' do
   erb :home
@@ -62,4 +61,3 @@ post '/' do
 
    erb :home
  end
-end
